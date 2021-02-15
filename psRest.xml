@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <psConfiguration>
     <variableList>
-        <!--<url>https://fuscdrmsmc203-fa-ext.us.oracle.com/fscmRestApi/resources/11.13.18.05</url>-->
-        <url>https://adc3-zufo-fa-ext.oracledemos.com/fscmRestApi/resources/11.13.18.05</url>
-        <user>SCM_IMPL</user>
-	<!--<user>SCMOPERATIONS</user>-->
-        <mfgUser>SCM_IMPL</mfgUser>
-        <password>qBA84794</password>
+        <url><host>/fscmRestApi/resources/11.13.18.05</url>
+        <user>user</user>
+        <mfgUser>user</mfgUser>
+        <password>pwd</password>
 		<interval>1</interval>
-	<proxyServer>www-proxy-ash7.us.oracle.com:80</proxyServer>
-
-        <resourceList>resources.txt</resourceList>
+	<proxyServer></proxyServer>
         <batchChunks>100</batchChunks>
-        <rootResource>productionSchedulingPlans</rootResource>
-        <psOrganizationsRoot>/productionSchedulingOrganizations</psOrganizationsRoot>
         <!--<planId>50002</planId>-->
         <recordLimit>5000</recordLimit>
-        <excelFile>psDemo.xls</excelFile>
-        <supplyFile>supplies.xls</supplyFile>
         <woFile>wo.xls</woFile>
     </variableList>
 </psConfiguration>
